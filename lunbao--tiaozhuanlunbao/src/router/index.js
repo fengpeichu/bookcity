@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+Vue.prototype.bus = new Vue()
 Vue.use(Router)
 
 export default new Router({
@@ -10,9 +10,9 @@ export default new Router({
         component: () =>
             import ('@/views/index')
     }, {
-        path: '/detail',
-        name: 'detail',
+        path: '/shopcar',
+        name: 'shopcar',
         component: () =>
-            import ('@/views/detail')
+            import ('@/views/shopcar')
     }]
 })

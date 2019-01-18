@@ -1,0 +1,41 @@
+[{
+    "name": "张总",
+    "content": "贵在坚持，应在坚持，成在坚持",
+    "headerImg": "3.jpg",
+    "commont": [{
+        "headImg": "3.jpg",
+        "names": "网易大牛",
+        "title": "我在互联网方面没有不行的，没错就是这样"
+    }],
+    "type": "zhiyan"
+}, {
+    "name": "王董",
+    "content": "我是火眼(ΩДΩ)",
+    "headerImg": "4.jpg",
+    "commont": [{
+        "headImg": "3.jpg",
+        "names": "网易大牛",
+        "title": "我在互联你牛你牛你真牛错就是这样"
+    }],
+    "type": "faxian"
+}, {
+    "name": "李董",
+    "content": "我持有公司12%的股份",
+    "headerImg": "5.jpg",
+    "commont": [{
+        "headImg": "5.jpg",
+        "names": "网易大牛",
+        "title": "你真有钱，没错就是这样"
+    }],
+    "type": "haoyou"
+}, {
+    "name": "杨董",
+    "content": "我手底下有一名得力干将",
+    "headerImg": "6.jpg",
+    "commont": [{
+        "headImg": "6.jpg",
+        "names": "网易大牛",
+        "title": "那就是我，没错就是这样"
+    }],
+    "type": "zhiyan"
+}]

@@ -1,5 +1,5 @@
 {
-  "name": "maimai",
+  "name": "lunbao--tiaozhuanlunbao",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "chufengpei <chufengpei@qq.com>",
@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "vue": "^2.5.2",
+    "vue-awesome-swiper": "^3.1.3",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

@@ -9,8 +9,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const portfinder = require('portfinder')
-const fs = require('fs')
-
+const fs = require('fs');
 const HOST = process.env.HOST
 const PORT = process.env.PORT && Number(process.env.PORT)
 
@@ -42,16 +41,9 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         watchOptions: {
             poll: config.dev.poll,
         },
-        // setup(app) {
-        //     app.get('/api/getlist', (req, res) => {
-        //         let type = req.query.type;
-        //         let data = JSON.parse(fs.readFileSync(path.join(__dirname, '../mock/data.json'), 'utf8'));
-        //         res.send(data.filter(item => item.type === type))
-        //     })
-        // }
         setup(app) {
-            app.get('/api/getlist', (req, res) => {
-                res.send(JSON.parse(fs.readFileSync(path.join(__dirname, '../src/mock/test.json'), 'utf8')));
+            app.get('/api/data', (req, res) => {
+                res.send(JSON.parse(fs.readFileSync(path.join(__dirname, '../src/mock/data.json'), 'utf8')));
             })
         }
     },
